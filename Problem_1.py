@@ -42,14 +42,6 @@ while i >= 0:
 
 # *** cover this
 
-# Assume f() is defined. In the statement a = f(), a is always a function.
-# True  [ ]
-# False [ ]
-
-#--------------------------------------------------------------------
-
-# *** cover this
-
 # Consider the following function.
 def f(x):
     a = []
