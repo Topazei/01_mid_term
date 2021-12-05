@@ -6,7 +6,7 @@
 # L is immutable
 # L contains 6 elements
 # L has integer keys
-# L maps strings to integers
+# L maps strings to integers v yes 
 
 # --------------------------------------------------------------------
 
@@ -16,7 +16,7 @@
 
 # a string
 # a tuple
-# a list
+# a list yes
 # all of the above
 # none of the above
 
@@ -33,7 +33,7 @@
 
 # type(s) can be str
 # type(s) can be tuple
-# type(s) can be list
+# type(s) can be list x
 # All of the above
 
 #--------------------------------------------------------------------
@@ -57,7 +57,8 @@ def f(x):
 
 # 3:
 # for i in range(100001, -1, -2):
-#     print(f)
+#     print(f) 
+###THIS ONE
 
 # 4:
 # print(int('abc'))

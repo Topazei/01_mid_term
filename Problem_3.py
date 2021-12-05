@@ -1,6 +1,6 @@
 # Examine the following code snippet:
 
-stuff  =
+stuff  =[ ( "iBoy", "iGirl", "iQ", "iC","iPaid","iPad") ]
 for thing in stuff:
     if thing == 'iQ':
         print("Found it")
@@ -9,12 +9,12 @@ for thing in stuff:
 # code print "Found it".
 
 
-# ["iBoy", "iGirl", "iQ", "iC","iPaid","iPad"]
-# ("iBoy", "iGirl", "iQ", "iC","iPaid","iPad")
-# [ ( "iBoy", "iGirl", "iQ", "iC","iPaid","iPad") ]
-# ( [ "iBoy", "iGirl", "iQ", "iC","iPaid","iPad" ], )
-# ["iQ"]
-# "iQ"
+# ["iBoy", "iGirl", "iQ", "iC","iPaid","iPad"] yes
+# ("iBoy", "iGirl", "iQ", "iC","iPaid","iPad") yes
+# [ ( "iBoy", "iGirl", "iQ", "iC","iPaid","iPad") ] NO
+# ( [ "iBoy", "iGirl", "iQ", "iC","iPaid","iPad" ], ) NO
+# ["iQ"] YES
+# "iQ" NO
 
 #--------------------------------------------------------------------
 

@@ -1,8 +1,12 @@
 # Suppose x = "pi" and y = "pie". The line of code x, y = y, x will
 # swap the values of x and y, resulting in x = "pie" and y = "pi".
-# True  [ ]
+# True  [x]
 # False [ ]
-
+x="pi"
+y="pie"
+z=x
+y=x
+x=y
 #--------------------------------------------------------------------
 
 # Suppose x is an integer in the following code:
@@ -12,21 +16,21 @@ def f(x):
 
 # For any value of x, all calls to f are guaranteed to never terminate.
 # True  [ ]
-# False [ ]
+# False [x]
 
 #--------------------------------------------------------------------
 
 # A Python program always executes every line of code written at least once.
 # True  [ ]
-# False [ ]
+# False [x]
 
 #--------------------------------------------------------------------
 
 # Suppose you have two different functions that each assign a variable called x.
 #  Modifying x in one function means you always modify x in the other function for any x.
 
-# True  [ ]
-# False [ ]
+# True  []
+# False [x]
 
 #--------------------------------------------------------------------
 
@@ -36,7 +40,7 @@ while i >= 0:
         print(i, j)
 
 # True  [ ]
-# False [ ]
+# False [x]
 
 #--------------------------------------------------------------------
 
@@ -50,11 +54,11 @@ def f(x):
         f(x-1)
 
 # A new object of type list is created for each recursive invocation of f.
-# True  [ ]
+# True  [x]
 # False [ ]
 
 #--------------------------------------------------------------------
 
 # A tuple can contain a list as an element.
-# True  [ ]
+# True  [x]
 # False [ ]
