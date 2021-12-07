@@ -12,3 +12,19 @@
 
 # Paste your entire function, including the definition, in the box below. 
 # Do not leave any debugging print statements.
+
+def is_triangular(k):
+    x=1
+    summ=1
+    while True:
+        if summ==k:
+            return True
+        elif summ>k:
+            return False
+        elif summ<k:
+            x+=1
+            summ+=x
+        else: 
+            print (summ,k,x)
+            break
+print(is_triangular(1))

@@ -13,3 +13,16 @@
 # largest_odd_times([3,9,5,3,5,3]) returns 9
 # Paste your entire function, including the definition, in the box below. 
 # Do not leave any debugging print statements.
+
+
+def largest_odd_times(L):
+    x=-1
+    L=sorted(L)
+    for i in range (0,len(L)):
+        y=L[x]
+        if L.count(y)%2!=0:
+            return(L[x])
+        elif i==len(L)-1 and L.count(y)%2==0:
+            return(None)
+        x-=1
+print(largest_odd_times([2,2,4,4,10,10,10,1]))
